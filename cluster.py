@@ -10,8 +10,8 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 
 model, preprocess = clip.load("ViT-B/32", device=device)
 
-dataset_path = r"C:\Users\hp\Desktop\clip_image_classifier\dataset"
-output_path = r"C:\Users\hp\Desktop\clip_image_classifier\cluster_output"
+dataset_path = "dataset"
+output_path = "output"
 
 num_clusters = 6
 
